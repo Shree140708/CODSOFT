@@ -1,0 +1,172 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+ 
+}
+
+.top-bar {
+  background:linear-gradient(to right, #16def9, #1d34e1);
+  color: white;
+  padding: 10px 0;
+}
+
+.top-bar .left, .top-bar .right {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.top-bar .right {
+  float: right;
+}
+
+.btn-small {
+  background: white;
+  color: #f97316;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.navbar {
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  padding: 20px 0;
+   background-image: url("file\C:\Users\Asmi\OneDrive\Desktop\Wallpaper");
+}
+
+.navbar .logo {
+  float: left;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #03191f;
+}
+
+.navbar nav {
+  float: right;
+}
+
+.navbar nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('your-image.jpg') no-repeat center center/cover;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero-text {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-primary {
+  background-color: #ff5722;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-outline {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background: linear-gradient(to right, #16def9, #1d34e1);
+  color: white;
+}
+
+.feature {
+  text-align: center;
+  width: 30%;
+}
+
+.about {
+  background: #fff;
+  padding: 60px 20px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.about .image img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.services {
+  background: #f9fafb;
+  padding: 40px 20px;
+}
+
+.center-text {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.service-items {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.service img {
+  width: 100px;
+  height: auto;
+}
+
